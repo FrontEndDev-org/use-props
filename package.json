@@ -1,0 +1,78 @@
+{
+  "name": "use-props",
+  "version": "0.1.0",
+  "description": "OpenAPI ➡️ Axios",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "vite build",
+    "lint:js": "eslint --ext=.cjs,.mjs,.ts,.tsx src test",
+    "lint:js:fix": "eslint --ext=.cjs,.mjs,.ts,.tsx src test --fix",
+    "lint:type": " tsc --project tsconfig.json",
+    "lint": "npm run lint:js && npm run lint:type",
+    "lint:fix": "npm run lint:js:fix && npm run lint:type",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "sideEffects": false,
+  "main": "./dist-cjs/index.cjs",
+  "module": "./dist-esm/index.mjs",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist-esm/index.mjs",
+      "require": "./dist-cjs/index.cjs",
+      "types": "./dist-types/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./dist-types/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist-types/index.d.ts",
+        "./dist-types/*"
+      ]
+    }
+  },
+  "files": [
+    "dist-cjs",
+    "dist-esm",
+    "dist-types"
+  ],
+  "keywords": [
+    "cloudcome",
+    "ydr.me",
+    "react",
+    "props",
+    "hook",
+    "useProps"
+  ],
+  "author": "云淡然 <hi@ydr.me> (https://ydr.me)",
+  "maintainers": [],
+  "homepage": "https://github.com/FrontEndDev-org/use-props",
+  "repository": "https://github.com/FrontEndDev-org/use-props",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/types": "^17.4.4",
+    "@types/lodash": "^4.14.199",
+    "@types/node": "^18.18.5",
+    "@types/prettier": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "@vitest/coverage-c8": "^0.33.0",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-define-config": "^1.24.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11",
+    "vite-plugin-dts": "^3.6.0",
+    "vite-plugin-externalize-deps": "^0.7.0",
+    "vitest": "^0.34.6"
+  }
+}
