@@ -1,7 +1,7 @@
 {
   "name": "use-props",
-  "version": "0.1.0",
-  "description": "OpenAPI ➡️ Axios",
+  "version": "1.0.0",
+  "description": "react useProps 方法，用于智能合并组件入参，方便组件开发",
   "scripts": {
     "prepare": "husky install",
     "build": "vite build",
@@ -52,7 +52,9 @@
   "homepage": "https://github.com/FrontEndDev-org/use-props",
   "repository": "https://github.com/FrontEndDev-org/use-props",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "classnames": "^2.3.2"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
@@ -60,6 +62,7 @@
     "@types/lodash": "^4.14.199",
     "@types/node": "^18.18.5",
     "@types/prettier": "^3.0.0",
+    "@types/react": "^18.2.28",
     "@typescript-eslint/eslint-plugin": "^6.7.5",
     "@typescript-eslint/parser": "^6.7.5",
     "@vitest/coverage-c8": "^0.33.0",
