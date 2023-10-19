@@ -12,6 +12,7 @@
     "useDefineForClassFields": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
     // node18 https://node.green/#ES2022
     "lib": ["ES2022"],
     "target": "ES2022",
