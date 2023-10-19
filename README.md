@@ -1,6 +1,12 @@
 # use-props
 react useProps 方法，用于智能合并组件入参，方便组件开发
 
+[![code-review](https://github.com/FrontEndDev-org/use-props/actions/workflows/code-review.yml/badge.svg)](https://github.com/FrontEndDev-org/use-props/actions/workflows/code-review.yml)
+[![dependency-review](https://github.com/FrontEndDev-org/use-props/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/FrontEndDev-org/use-props/actions/workflows/dependency-review.yml)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/948a21cc839b431490dd8b8bf22628c3)](https://app.codacy.com/gh/FrontEndDev-org/use-props/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/948a21cc839b431490dd8b8bf22628c3)](https://app.codacy.com/gh/FrontEndDev-org/use-props/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
+[![npm version](https://badge.fury.io/js/use-props.svg)](https://npmjs.com/package/use-props)
+
 
 ## 特点
 1. `Props` 类型自动添加 children、style、className 和 HTMLAttributes 入参
