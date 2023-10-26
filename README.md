@@ -48,6 +48,7 @@ export default function MyComp(props: MyCompProps) {
       def = {def}
       opq = {opq}
       xyz = {xyz}
+      {children}
     </div>
   );
 }
