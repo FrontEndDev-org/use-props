@@ -14,6 +14,7 @@ export default defineConfig({
     externalizeDeps(),
     dts({
       outDir: 'dist-types',
+      entryRoot: 'src',
     }),
   ],
   define: {
