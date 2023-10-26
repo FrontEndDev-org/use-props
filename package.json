@@ -35,6 +35,7 @@
     }
   },
   "files": [
+    "CHANGELOG.md",
     "dist-cjs",
     "dist-esm",
     "dist-types"
