@@ -4,11 +4,11 @@ export * from './const.js';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type AnyObject = Record<keyof any, any>;
-export type Props<P extends AnyObject = AnyObject> = {
+export type Props<P extends AnyObject = AnyObject, E extends HTMLElement = HTMLElement> = {
   className?: ClassName;
   style?: CSSProperties & Record<string, string>;
   children?: ReactNode;
-} & HTMLAttributes<HTMLElement> &
+} & HTMLAttributes<E> &
   P;
 export type RuntimeProps<P extends AnyObject, D extends Partial<P>> = Omit<P, keyof D> & Required<Pick<P, keyof D>>;
 
