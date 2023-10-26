@@ -17,7 +17,7 @@ react useProps 方法，用于智能合并组件入参，方便组件开发
 ## 使用
 ### 组件开发
 ```tsx
-import {type Props, useProps} from 'use-props';
+import useProps, {type Props} from 'use-props';
 
 // 1. 定义组件入参
 export type MyCompProps = Props<{
