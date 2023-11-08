@@ -43,7 +43,7 @@ export default function MyComp(props: MyCompProps) {
   // xyz 类型为 number | undefined
 
   return (
-    <div ...attrs>
+    <div {...attrs}>
       abc = {abc}
       def = {def}
       opq = {opq}
