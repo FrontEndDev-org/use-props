@@ -13,7 +13,7 @@ export default defineConfig({
   plugins: [
     externalizeDeps(),
     dts({
-      outDir: 'dist-types',
+      outDir: 'dist',
       entryRoot: 'src',
     }),
   ],
@@ -33,13 +33,13 @@ export default defineConfig({
       output: [
         {
           format: 'esm',
-          dir: 'dist-esm',
+          dir: 'dist',
           entryFileNames: '[name].mjs',
           chunkFileNames: '[name].mjs',
         },
         {
           format: 'cjs',
-          dir: 'dist-cjs',
+          dir: 'dist',
           entryFileNames: '[name].cjs',
           chunkFileNames: '[name].cjs',
         },

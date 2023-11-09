@@ -14,14 +14,12 @@
     "test:coverage": "vitest run --coverage"
   },
   "sideEffects": false,
-  "main": "./dist-cjs/index.cjs",
-  "module": "./dist-esm/index.mjs",
-  "types": "./dist-types/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
     "CHANGELOG.md",
-    "dist-cjs",
-    "dist-esm",
-    "dist-types"
+    "dist"
   ],
   "keywords": [
     "cloudcome",
