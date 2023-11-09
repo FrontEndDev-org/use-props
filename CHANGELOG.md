@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/FrontEndDev-org/use-props/compare/v1.1.0...v1.2.0) (2023-11-09)
+
+
+### Features
+
+* 移除 type=module 声明 ([569c74c](https://github.com/FrontEndDev-org/use-props/commit/569c74ce677c6ad6207afd659ae4947698b3eea9))
+* 类型优化 ([3cdfdc4](https://github.com/FrontEndDev-org/use-props/commit/3cdfdc4718730bda0bbf3da06209bcc8edc42a8d))
+
 ## [1.1.0](https://github.com/FrontEndDev-org/use-props/compare/v1.0.0...v1.1.0) (2023-10-26)
 
 
