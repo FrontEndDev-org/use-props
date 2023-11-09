@@ -16,23 +16,7 @@
   "sideEffects": false,
   "main": "./dist-cjs/index.cjs",
   "module": "./dist-esm/index.mjs",
-  "exports": {
-    ".": {
-      "import": "./dist-esm/index.mjs",
-      "require": "./dist-cjs/index.cjs",
-      "types": "./dist-types/index.d.ts"
-    },
-    "./package.json": "./package.json"
-  },
   "types": "./dist-types/index.d.ts",
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./dist-types/index.d.ts",
-        "./dist-types/*"
-      ]
-    }
-  },
   "files": [
     "CHANGELOG.md",
     "dist-cjs",
